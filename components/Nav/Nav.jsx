@@ -24,7 +24,7 @@ export default function Nav(){
        { links.map((elem) =>{
             return (
                 
-                <Link href={elem.URL} >                        
+                <Link href={elem.URL} key={elem.id}>                        
                 <div className={styles["navitem"]} >{elem.title}</div>
                 </Link>
                
