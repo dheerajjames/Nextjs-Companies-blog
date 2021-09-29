@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from '../../components/Nav/Nav'
 // import styles from '../../styles/styles.css'
 import apiCall from '../../data/apiCall'
+import Footer from '../Footer/Footer'
 
 
 export default function Raw(props){
@@ -13,6 +14,7 @@ export default function Raw(props){
 			<h2>{props.data.content}</h2>
 			<h3>{props.data.body}</h3>
 			</div>
+			<Footer />
         </div>
     )
 }

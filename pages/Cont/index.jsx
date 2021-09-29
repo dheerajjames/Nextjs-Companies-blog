@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from '../../components/Nav/Nav'
 import apiCall from '../../data/apiCall'
-
+import Footer from '../Footer/Footer'
 export default function Cont(props){
  
     return(
@@ -13,6 +13,7 @@ export default function Cont(props){
 				 <h2>{props.data.content}</h2>
 				 <h3>{props.data.body}</h3>
         </div>
+		<Footer />
 		</div>
     )
 }
