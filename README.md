@@ -2,7 +2,7 @@
 This application implements the concept of server side rendering and navigation for single page application.
 This application has Companies and displays the company information.
 
-[Live Link]()
+[Live Link](https://companies-nextjs.netlify.app/)
 
 
 ## Getting Started
